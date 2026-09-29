@@ -6,6 +6,7 @@
 
 generator client {
   provider = "prisma-client-js"
+  
 }
 
 datasource db {
@@ -40,3 +41,4 @@ model Tenant {
   updatedAt DateTime @updatedAt
   users     User[]
 }
+
